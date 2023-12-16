@@ -1,4 +1,4 @@
-package com.akiyama.kanjimaster.activites
+package com.akiyama.kanjimaster.ui.activites
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         runBlocking {
             installSplashScreen()
-            delay(4000)
+            delay(1000)
         }
         setContentView(R.layout.activity_main)
     }
